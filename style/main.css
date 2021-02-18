@@ -54,6 +54,10 @@ header .container{
     align-items: flex-start;
 }
 
+.filme__principal .container{
+    margin-left: 15px;
+}
+
 .titulo{
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
