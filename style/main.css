@@ -1,1 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
 
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Cabeçalho */
+header .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.cabecalho__link{
+    color: #AAA;
+    margin-right: 10px;
+}
+
+.cabecalho__link:hover{
+    color: #fff;
+}
+
+/* Filme Principal*/
+
+.filme__principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) ,url('../assets/img/back__greys__anatomy.jpg');
+    background-size: cover;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.descricao{
+    width: 50%;
+    margin-bottom: 90px;
+}
+
+.botoes{
+    display: flex;
+}
