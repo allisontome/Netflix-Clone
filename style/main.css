@@ -56,14 +56,38 @@ header .container{
 
 .titulo{
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
+    margin-top: 10%;
 }
 
 .descricao{
+    margin-top: 10px;
     width: 50%;
     margin-bottom: 90px;
+
 }
 
 .botoes{
     display: flex;
+}
+
+.botao{
+    background-color: rgba(0,0,0, .50);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.fas{
+    margin-right: 2px;
+}
+
+.botao:hover{
+    cursor: pointer;
+    transition: 0.3s ease all;
+    background-color: white;
+    color: black;
 }
