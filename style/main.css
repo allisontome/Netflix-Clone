@@ -95,3 +95,20 @@ header .container{
     background-color: white;
     color: black;
 }
+
+.carrossel{
+    margin-top: 10px;
+}
+
+.box__image{
+    height: 100%;
+    width: 100%;
+
+    display: block;
+}
+
+.item:hover{
+    cursor: pointer;
+    height: 105%;
+    width: 105%;
+}
